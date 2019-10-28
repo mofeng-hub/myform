@@ -1,0 +1,84 @@
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,hr,td,input,textarea{
+	margin:0;
+	padding:0;
+}
+html,body{
+	height: 100%;
+}
+ul,ol,li{
+	list-style: none;
+}
+a{
+	text-decoration:none;
+}
+img{
+    border:none;
+}
+body{
+	background: #f5f5f9;
+	-webkit-flex-direction:column;
+}
+html{
+	font-size: 26.67vw;
+}
+/* header */
+header{
+    height:2rem;
+    width:100%;
+    background:#43b430;
+    text-align: center;
+    margin-bottom: .3rem;
+}
+header p{
+    color:white;
+    font-size:20px;
+    margin-top: -.35rem;
+    font-weight: bold;
+}
+.banner{
+    width:100%;
+    text-align: center;
+}
+.ban{
+    display: flex;
+    justify-content: center;
+    margin-top: .2rem;
+    align-items: center;
+}
+.banimg1,.banimg2,.banimg3,.banimg4{
+    height:.3rem;
+}
+input{
+    height: .4rem;
+    width: 2.2rem;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    font-size: 18px;
+}
+#btn{
+    width:2.5rem;
+    background:#43b430;
+    color:white;
+    font-size:20px;
+    height: .5rem;
+    border-radius: 20px;
+    margin-top: .4rem;
+    display: block;
+}
+#checkbox{
+    height: .2rem;
+    float: left;
+    width: .14rem;
+}
+.banner span{
+    font-size: 18px;
+    float: right;
+    margin-bottom: .3rem;
+}
+.ner{
+    width: 2.6rem;
+    margin-left: .6rem;
+    height: 1rem;
+    margin-top: .3rem;
+}
